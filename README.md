@@ -149,6 +149,15 @@ Open http://localhost:3000 and follow the setup wizard.
 
 If you later access Cinephage through a hostname or reverse proxy, update `BETTER_AUTH_URL` in `.env` to that public URL. You can also set the External URL in the UI under **Settings > System**.
 
+### Easypanel
+
+You can also deploy Cinephage with one click using the official [Easypanel](https://easypanel.io) template:
+
+[![Deploy on Easypanel][easypanel-btn]][easypanel-deploy]
+
+[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
+[easypanel-deploy]: https://easypanel.io/templates/cinephage
+
 ### Bare Metal
 
 **Prerequisites:** Node.js 22+ · npm · git · ffmpeg (optional, for media info)
